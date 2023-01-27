@@ -7,6 +7,8 @@
   Compiled for Lolin32 Lite, but should work on nearly any ESP32 device.
   Note: not all ESP32 device libraries define "BUILDIN_LED" (GPIO22)
 
+A collection of HW info can be found at https://github.com/markr1961/_ESP32_dev_board_docs in the Lolin32_Lite folder. 
+
 ## Arduino info
 Board manager:  https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 Library:        
