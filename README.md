@@ -1,19 +1,19 @@
-# SimpleBleAdvertiser
-  Simple BLE advertiser that updates the advertising name when a button is pressed.
+## SimpleBleAdvertiser
+Simple BLE advertiser that updates the advertising name when a button is pressed.
 
-  Based on SimpleBLEDevice example from Espressif Systems
-  pressing the button restarts BLE with new a advertising name using the elapsed seconds.
-  The LED toggles every 1000mS.
-  Compiled for Lolin32 Lite, but should work on nearly any ESP32 device.
-  Note: not all ESP32 device libraries define "BUILDIN_LED" (GPIO22)
+- Based on SimpleBLEDevice example from Espressif Systems https://github.com/espressif/arduino-esp32/blob/master/libraries/SimpleBLE/examples/SimpleBleDevice/SimpleBleDevice.ino
+- pressing the button restarts BLE with new a advertising name using the elapsed seconds.
+- The LED toggles every 1000mS.
+- Compiled for Lolin32 Lite, but should work on nearly any ESP32 device.
+- Note: not all ESP32 device libraries define "BUILDIN_LED" (GPIO22)
 
 A collection of HW info can be found at https://github.com/markr1961/_ESP32_dev_board_docs in the Lolin32_Lite folder. 
 
-## Arduino info
+### Arduino info
 Board manager:  https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 Library:        
 
-### Arduino IDE settings
+#### Arduino IDE settings
 Arduino board:  Wemos Lolin32 Lite
 Flash mode:     QIO
 Flash size:     4MB (32Mb)
@@ -23,7 +23,7 @@ PSRAM:          disabled
 
 CPU:            ESP32-DOWQ6
 
-### Board info
+#### Board info
 BN:   Unknown board
 VID:  1A86
 PID:  7523
